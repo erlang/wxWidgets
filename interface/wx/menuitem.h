@@ -165,14 +165,14 @@ public:
 
         @onlyfor{wxmsw}
     */
-    virtual const wxBitmap& GetBitmap() const;
+    virtual wxBitmap GetBitmap() const;
 
     /**
         Returns the bitmap to be used for disabled items.
 
         @onlyfor{wxmsw}
     */
-    virtual const wxBitmap& GetDisabledBitmap() const;
+    virtual wxBitmap GetDisabledBitmap() const;
 
     /**
         Returns the font associated with the menu item.
